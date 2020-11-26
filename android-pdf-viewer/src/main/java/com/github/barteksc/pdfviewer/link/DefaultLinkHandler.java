@@ -27,7 +27,7 @@ public class DefaultLinkHandler implements LinkHandler {
 
     private static final String TAG = DefaultLinkHandler.class.getSimpleName();
 
-    private PDFView pdfView;
+    private final PDFView pdfView;
 
     public DefaultLinkHandler(PDFView pdfView) {
         this.pdfView = pdfView;
